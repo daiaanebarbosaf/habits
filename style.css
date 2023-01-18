@@ -54,6 +54,7 @@ input {
   background-color: #18181B;
 }
 
+/*O checked é um tipo de psudo-selector*/
 input:checked {
   background: #8B5CF6;
   border: 2px solid #A78BFA;
