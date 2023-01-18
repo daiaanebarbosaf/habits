@@ -51,5 +51,10 @@ input {
   border: 2px solid #27272A;
   border-radius: 8px;
 
-  background-color: #8B5CF6;
+  background-color: #18181B;
+}
+
+input:checked {
+  background: #8B5CF6;
+  border: 2px solid #A78BFA;
 }
