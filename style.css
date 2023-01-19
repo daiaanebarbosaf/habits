@@ -45,8 +45,20 @@ form {
   display: flex;
 }
 
+.habit {
+  width: 64px;
+  height: 64px;
+
+  font-size: 32px;
+
+  display: flex;
+  align-items: center;
+}
+
 .days {
   display: flex;
+  gap: 48px;
+  margin-left: 32px;
 }
 
 .day {
