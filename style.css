@@ -45,6 +45,14 @@ form {
   display: flex;
 }
 
+.habits {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+}
+
 .habit {
   width: 64px;
   height: 64px;
