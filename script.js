@@ -6,4 +6,4 @@ const data = {
 }
 
 nlwSetup.setData(data)
-NLWSetup.load()
+nlwSetup.load()
