@@ -7,6 +7,10 @@ button.addEventListener('click', add)
 
 function add() {
   const today = "01/01"
+  const dayExists = nlwSetup.dayExists(today)
+
+  alert(dayExists)
+
   nlwSetup.addDay(today)
 }
 
