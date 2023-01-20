@@ -9,7 +9,10 @@ function add() {
   const today = "01/01"
   const dayExists = nlwSetup.dayExists(today)
 
-  alert(dayExists)
+  if(dayExists) {
+    alert("Dia já incluso!")
+    return
+  }
 
   nlwSetup.addDay(today)
 }
