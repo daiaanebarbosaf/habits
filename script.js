@@ -6,7 +6,7 @@ const button = document.querySelector('header button')
 button.addEventListener('click', add)
 
 function add() {
-  alert('Hello Word!')
+  nlwSetup.addDay("01/01")
 }
 
 /*const data = {
