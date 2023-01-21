@@ -30,5 +30,5 @@ function save(){
 
 const data = JSON.parse(localStorage.getItem("NLWSetup@habits"))
 
-/*nlwSetup.setData(data)
-nlwSetup.load()*/
+nlwSetup.setData(data)
+nlwSetup.load()
