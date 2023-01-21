@@ -4,7 +4,7 @@ const nlwSetup = new NLWSetup(form)
 const button = document.querySelector('header button')
 
 button.addEventListener("click", add)
-form.addEventListener("chage", save)
+form.addEventListener("change", save)
 
 function add() {
   const today = new Date().toLocaleDateString('pt-br').slice(0, -5)
@@ -19,7 +19,7 @@ function add() {
 }
 
 function save(){
-  
+  console.log("qualquer coisa")
 }
 
 /*const data = {
