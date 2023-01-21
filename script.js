@@ -19,7 +19,7 @@ function add() {
 }
 
 function save(){
-  console.log("qualquer coisa")
+  console.log(nlwSetup.data)
 }
 
 /*const data = {
