@@ -62,8 +62,8 @@ button {
 }
 
 .habit {
-  width: 64px;
-  height: 64px;
+  width: 44px;
+  height: 44px;
 
   font-size: 32px;
 
@@ -100,8 +100,8 @@ input {
   appearance: none;
   -webkit-appearance: none;
 
-  width: 64px;
-  height: 64px;
+  width: 44px;
+  height: 44px;
 
   border: 2px solid #27272A;
   border-radius: 8px;
