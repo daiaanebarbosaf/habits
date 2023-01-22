@@ -15,6 +15,11 @@ body {
   width: min(42.8rem, 70%);
 }
 
+#logo {
+  width: clamp(2vw, 10em, 30vw);
+}
+
+
 header {
   display: flex;
   align-items: center;
