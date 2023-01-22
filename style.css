@@ -17,13 +17,12 @@ body {
 
 #logo {
   width: clamp(2vw, 10em, 30vw);
-  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 button #plus {
   width: clamp(2vw, 2em, 5vw);
 }
-
 
 header {
   display: flex;
@@ -55,6 +54,8 @@ button {
 
   font-size: 16px;
   line-height: 125%;
+
+
 }
 
 #form-habits {
