@@ -12,6 +12,7 @@ body {
   place-items: center;*/
 
   height: 100vh;
+  width: min(42.8rem, 70%);
 }
 
 header {
