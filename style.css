@@ -108,6 +108,8 @@ input {
   border-radius: 8px;
 
   background-color: #18181B;
+
+  cursor: pointer;
 }
 
 /*O checked é um tipo de psudo-selector*/
